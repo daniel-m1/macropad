@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 
 / {
     /*
@@ -34,7 +35,7 @@
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T
 &kp CLCK  &kp A     &kp S     &kp D     &kp F     &kp G
 &kp LSHFT &trans    &kp Z     &kp X     &kp C     &kp V
-&kp LCTRL &kp LGUI  &kp LALT  &kp SPACE &trans    &kp RALT
+&ext_power EP_TOG &kp LGUI  &kp LALT  &kp SPACE &trans    &kp RALT
             >;
         };
         function_layer {
