@@ -35,7 +35,7 @@
 &kp TAB   &kp Q     &kp W     &kp E     &kp R     &kp T
 &kp CLCK  &kp A     &kp S     &kp D     &kp F     &kp G
 &kp LSHFT &trans    &kp Z     &kp X     &kp C     &kp V
-&&bt BT_CLR &kp LGUI  &kp LALT  &kp SPACE &trans    &kp RALT
+&bt BT_CLR &kp LGUI  &kp LALT  &kp SPACE &trans    &kp RALT
             >;
         };
         function_layer {
