@@ -1,6 +1,6 @@
 file_format: "1"
 id: macropad
-name: Macropad
+name: macropad
 type: shield
 url: https://example.org
 requires: [pro_micro]
